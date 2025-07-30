@@ -10,16 +10,14 @@ A full-featured clinic management solution designed to streamline patient appoin
 **Backend**
 - ⬜ Set up Express.js server with MongoDB connection  
 - ⬜ Implement **JWT authentication** & role-based authorization  
-- ⬜ Create user schema with roles: **Super Admin, Admin, Receptionist, Doctor, Patient, Lab Technician**  
-- ⬜ Configure Email (Nodemailer/SendGrid) & SMS (Twilio) notification services  
+- ⬜ Create user schema with roles: **Doctor & Patient**  
+
 
 **Frontend**
 - ✅ Initialize **Next.js** project with TypeScript  
 - ⬜ Build authentication pages (Login, Registration, Password Reset)  
 - ⬜ Implement **Redux Toolkit** for state management  
 - ⬜ Develop role-based navigation and responsive dashboard  
-
----
 
 ### **Phase 2: Appointment Management ⬜
 **Backend**
@@ -34,11 +32,11 @@ A full-featured clinic management solution designed to streamline patient appoin
 
 ---
 
-### **Phase 3: Medical Records & Patient Management ⬜
+### **Phase 3: Medical Records, Additional Roles Creation & Patient Management ⬜
 **Backend**
 - ⬜ Medical history & prescription management schemas  
 - ⬜ Patient profile endpoints with access controls  
-
+- ⬜ Create user schema with roles: **Super Admin, Admin, Receptionist, , Lab Technician**
 **Frontend**
 - ⬜ Patient profile and medical history viewer  
 - ⬜ Prescription management UI & secure file handling  
@@ -60,11 +58,12 @@ A full-featured clinic management solution designed to streamline patient appoin
 
 ---
 
-### **Phase 5: Billing & Financial Management ⬜
+### **Phase 5: Billing, Financial Management & Notification Management ⬜
 **Backend**
 - ⬜ Invoice & payment schemas with lab test integration  
 - ⬜ Integrate **Khalti, eSewa & Fonepay**  
-- ⬜ Financial reporting endpoints  
+- ⬜ Financial reporting endpoints
+- ⬜ Configure Email (Nodemailer/SendGrid) & SMS (Twilio) notification services  
 
 **Frontend**
 - ⬜ Invoice generation (consultation + lab tests)  
