@@ -8,9 +8,9 @@ A full-featured clinic management solution designed to streamline patient appoin
 
 ### **Phase 1: Core Infrastructure & Authentication 
 **Backend**
-- ⬜ Set up Express.js server with MongoDB connection  
+- ✅ Set up Express.js server with MongoDB connection  
 - ⬜ Implement **JWT authentication** & role-based authorization  
-- ⬜ Create user schema with roles: **Doctor & Patient**  
+- ✅ Create user schema with roles: **Doctor & Patient**  
 
 
 **Frontend**
